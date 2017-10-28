@@ -10,9 +10,10 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,12 +21,40 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="container">
+        <header>
+            <h1>Cake Collector</h1>
+        </header>
+       <div id="instructions">
+        <p>Fanny pack fashion axe tumeric lomo pok pok, copper mug before they sold out venmo cloud bread succulents organic prism sartorial. Hot chicken schlitz tote bag vice photo booth lomo shaman hella. Forage blog cloud bread knausgaard mlkshk. Portland squid pork belly ethical. Yuccie scenester deep v tumeric tofu bitters gluten-free meggings put a bird on it umami PBR&B cray photo booth. Enamel pin banjo chicharrones, farm-to-table fam cardigan typewriter wayfarers heirloom art party cray hoodie vinyl. Art party stumptown jianbing mlkshk locavore, small batch forage jean shorts cronut. Shabby chic austin ethical mixtape swag DIY, pabst poke truffaut next level heirloom everyday carry. La croix salvia seitan food truck aesthetic, +1 migas. Fingerstache tbh 3 wolf moon fashion axe selvage. Migas synth street art scenester man braid, post-ironic swag. Plaid street art taiyaki hoodie pork belly squid vexillologist asymmetrical franzen flexitarian YOLO taxidermy actually. Pop-up mlkshk PBR&B viral, polaroid sriracha crucifix fam live-edge messenger bag celiac. Drinking vinegar before they sold out cold-pressed, copper mug tattooed blog banh mi messenger bag narwhal DIY. Kale chips godard thundercats vegan meditation.
+
+           </p>
+        </div>
+        <h2>Goal Number</h2> 
+        <div id="goal-panel">
+            <p id = "random-number"></p> 
+        </div>
+            
+        <div id="score-panel">
+            <p>Wins: <span id="dis-win">0</span></p>
+            <p>Losses: <span id="dis-losses">0</span></p>
+        </div>
+              
+        <div id="cake-btns">
+             <img id="cake1" src="assets/img/cake1.png" alt="A Picture of a Cake"/>
+             <img id="cake2" src="assets/img/cake2.png" alt="A Picture of a Cake"/>
+             <img id="cake3" src="assets/img/cake3.png" alt="A Picture of a Cake"/>
+             <img id="cake4" src="assets/img/cake4.png" alt="A Picture of a Cake"/>   
+        </div>
+        <h2>Your Total Number</h2>
+        <div id="your-panel">
+            <p> <span id = "your-number">0</span></p> 
+        </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
