@@ -5,7 +5,8 @@ var loseCount = 0;
 var counter = 0;
 var cakeGame;
 var gameCount = 0
-var randomValue;
+
+
 //DOM manipulations
 var disWin = document.getElementById("dis-win");
 var disLosses = document.getElementById("dis-losses");
@@ -18,21 +19,15 @@ $(document).ready(function() {
     random: function(){
         //Random Number
             randomNumber = Math.floor(Math.random()* 50)+1;
-            console.log(randomNumber);
             $("#random-number").text(randomNumber);
         },
 
     value:function(){
            randomValue1 = Math.floor(Math.random()* 20)+1;
-            console.log(randomValue1);
            randomValue2 = Math.floor(Math.random()* 20)+1;
-            console.log(randomValue2);
            randomValue3 = Math.floor(Math.random()* 20)+1;
-            console.log(randomValue3);
            randomValue4 = Math.floor(Math.random()* 20)+1;
-            console.log(randomValue4);
-            
-    },
+        },
 
 
         //Crystal Portion
@@ -140,14 +135,13 @@ $(document).ready(function() {
             },
 
             new: function(){
-                alert("newGame")
                 cakeGame.random();
                 cakeGame.play();
     }
 
 
 };
-    cakeGame.value();
+  cakeGame.value();
   cakeGame.new();
     
   });
