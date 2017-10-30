@@ -22,11 +22,17 @@ $(document).ready(function() {
             $("#random-number").text(randomNumber);
         },
 
-//    value:function(){
-//           randomValue = Math.floor(Math.random()* 20)+1;
-//            console.log(randomValue);
-//            
-//    },
+    value:function(){
+           randomValue1 = Math.floor(Math.random()* 20)+1;
+            console.log(randomValue1);
+           randomValue2 = Math.floor(Math.random()* 20)+1;
+            console.log(randomValue2);
+           randomValue3 = Math.floor(Math.random()* 20)+1;
+            console.log(randomValue3);
+           randomValue4 = Math.floor(Math.random()* 20)+1;
+            console.log(randomValue4);
+            
+    },
 
 
         //Crystal Portion
@@ -37,7 +43,7 @@ $(document).ready(function() {
 
               $("#cake1").on("click", function() {
                   console.log('cake1')
-                counter += 10;
+                counter += randomValue1;
 
                 $("#your-number").text(counter);
 
@@ -60,7 +66,7 @@ $(document).ready(function() {
               $("#cake2").on("click", function() {
                   console.log('cake2')
 
-                counter += 1;
+                counter += randomValue2;
 
                 $("#your-number").text(counter);
 
@@ -83,7 +89,7 @@ $(document).ready(function() {
                 $("#cake3").on("click", function() {
                   console.log('cake3')
 
-                counter += 5;
+                counter += randomValue3;
 
                 $("#your-number").text(counter);
 
@@ -106,7 +112,7 @@ $(document).ready(function() {
                 $("#cake4").on("click", function() {
                   console.log('cake4')
 
-                counter += 3;
+                counter += randomValue4;
 
                 $("#your-number").text(counter);
 
@@ -141,7 +147,7 @@ $(document).ready(function() {
 
 
 };
-
+    cakeGame.value();
   cakeGame.new();
     
   });
