@@ -18,15 +18,15 @@ $(document).ready(function() {
     
     random: function(){
         //Random Number
-            randomNumber = Math.floor(Math.random()* 50)+1;
+            randomNumber = Math.floor(Math.random()* 120)+1;
             $("#random-number").text(randomNumber);
         },
 
     value:function(){
-           randomValue1 = Math.floor(Math.random()* 20)+1;
-           randomValue2 = Math.floor(Math.random()* 20)+1;
-           randomValue3 = Math.floor(Math.random()* 20)+1;
-           randomValue4 = Math.floor(Math.random()* 20)+1;
+           randomValue1 = Math.floor(Math.random()* 12)+1;
+           randomValue2 = Math.floor(Math.random()* 12)+1;
+           randomValue3 = Math.floor(Math.random()* 12)+1;
+           randomValue4 = Math.floor(Math.random()* 12)+1;
         },
 
 
