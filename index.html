@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/main.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Copse|Muli" rel="stylesheet">
 
     </head>
     <body>
@@ -28,18 +29,19 @@
        <div id="instructions">
         <p>You will be given a random number at the start of the game.</p>
         <p>There are four cakes below. By clicking on a cake you will add a specific amount of points to your total score.</p>
-        <p>You wil the game by matching your total score to random number, you lose the game if your total score goeas sbove the random number.</p>
+        <p>You wil the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
         <p>The value of each crystal is hidden form you until you click on it</p>
         <p>Each time when the game starts, the game will change the values of each crystal.</p>
         </div>
-        <h2>Goal Number</h2> 
+       
         <div id="goal-panel">
+         <h2>Goal Number:</h2> 
             <p id = "random-number"></p> 
         </div>
             
         <div id="score-panel">
-            <p>Wins: <span id="dis-win">0</span></p>
-            <p>Losses: <span id="dis-losses">0</span></p>
+            <p class="score-text">Wins: <span id="dis-win">0</span></p>
+            <p class="score-text">Losses: <span id="dis-losses">0</span></p>
         </div>
               
         <div id="cake-btns">
@@ -48,8 +50,9 @@
              <img id="cake3" src="assets/img/cake3.png" alt="A Picture of a Cake"/>
              <img id="cake4" src="assets/img/cake4.png" alt="A Picture of a Cake"/>   
         </div>
-        <h2>Your Total Number</h2>
+            
         <div id="your-panel">
+            <h2>Your Total Number:</h2>
             <p> <span id = "your-number">0</span></p> 
         </div>
 

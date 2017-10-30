@@ -94,6 +94,77 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+}
+h1{
+    color: #F36B82;
+    font-family: 'Copse', serif;
+    font-size:40px;
+}
+header{
+    border: 2px dashed #F093A8;
+    margin:0px 30px 20px 30px;
+}
+
+h2{
+    color: #AFD6CE;
+    font-family: 'Copse', serif;
+    border: 2px dashed #BAB9B6;
+    margin:0px 30px 20px 30px;
+}
+#goal-panel{
+    width:50%;
+    float:left;
+}
+#random-number{;
+    font-size:25px;
+    color: #F36B82;
+    font-weight: bold;
+    padding:5px 5px;
+   
+    text-align: center;
+     margin:0px 30px 20px 10px;
+}
+
+#score-panel{
+    margin:0px 20px;
+    float:left;  
+    width:40%;
+    background: #F093A8;
+}
+
+.score-text{
+    font-weight:bold;
+    font-size: 16px;
+    color: #F2F3F4;
+}
+
+#cake-btns{
+width:100%;
+float:left;
+margin-bottom: 20px;
+    
+}
+
+#your-panel{
+   width:100%;
+    float:left; 
+}
+#your-number{
+    font-size:25px;
+    color: #F36B82;
+    font-weight: bold;
+}
+
+#instructions{
+    margin:0px 30px 20px 30px;
+    padding:20px 10px;
+    background: #BAB9B6;
+    font-weight:bold;
+    color: #F2F3F4;
+}
 
 
 
